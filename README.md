@@ -18,7 +18,7 @@ Exclusive and free program, promoted by Rocketseat for teaching WEB technologies
 <br>
 
 <p align="center">
-  <img alt="projeto Links" src="preview.jpg" width="100%">
+  <img alt="projeto Links" src="./assets/preview.jpg" width="100%">
 </p>
 
 ## 🚀 Technologies
