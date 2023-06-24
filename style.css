@@ -82,11 +82,33 @@ body * {
   left: 0;
   z-index: 1;
   transform: translateY(-50%);
+  animation: deslizar-suave-back 0.4s;
 }
 
 .light #switch button {
-  right: 0;
-  left: initial;
+  animation: deslizar-suave-in 0.4s forwards;
+}
+
+#switch button:hover {
+  outline: 8px solid var(--borda-links-hover);
+}
+
+/* animation */
+@keyframes deslizar-suave-in {
+  from {
+    left: 0;
+  }
+  to {
+    left: 50%;
+  }
+}
+@keyframes deslizar-suave-back {
+  from {
+    left: 50%;
+  }
+  to {
+    left: 0;
+  }
 }
 
 #switch span {
